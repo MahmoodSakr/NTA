@@ -1,0 +1,55 @@
+* {
+     box-sizing: border-box;
+   }
+
+   .header {
+     margin-top: 20px;
+     margin-bottom: 20px;
+     overflow: hidden;
+   }
+   .header h1 {
+     margin: auto;
+     width: fit-content;
+     line-height: normal;
+     font-weight: bold;
+   }
+
+   .header img {
+     display: block;
+   }
+   #NTA_left_header_icon {
+     float: left;
+   }
+   #Logo_right_header_icon {
+     float: right;
+   }
+   .mynav li a {
+     text-align: right;
+     color: white;
+     font-weight: bold;
+   }
+
+   .nav-item a {
+     color: white !important;
+   }
+
+   .nav-item a:hover {
+     color: red !important;
+   }
+
+   form > div {
+     margin-top: 2px;
+   }
+
+   input[type='file']{
+    margin-top: 4px;
+   }
+
+   .navbar-dark .navbar-toggler{
+    border-color: white;
+    border-width: 2px;
+   }
+
+   .navbar-dark .navbar-toggler:hover{
+    border-color: red;
+   }
