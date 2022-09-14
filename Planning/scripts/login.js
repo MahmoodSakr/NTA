@@ -13,7 +13,14 @@ function login() {
     password == "sakr"
   ) {
     document.location.href = "./htmls/takhtet.html";
-  } else if (username == "taimor" && password == "sakr") {
+  } else if (
+    (username == "taimor" ||
+      username == "sakr" ||
+      username == "mena" ||
+      username == "mayar" ||
+      username == "tony") &&
+    password == "sakr"
+  ) {
     document.location.href = "./htmls/tadreb.html";
   } else {
     alert("Username or Password is incorrect !");
