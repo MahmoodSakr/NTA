@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>التخطيط</title>
+    <title>التقارير</title>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
@@ -15,13 +15,14 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="../styles/takhtet.css" />
+    
     <style>
       .container {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 70vw;
-        height: 88vh;
+        width: 80%;
+        height: 85vh;
       }
 
       .selection-main {
@@ -44,12 +45,12 @@
         cursor: pointer;
       }
 
-      .selection-main h1{
+      .selection-main h1 {
         border: 2px dashed white;
       }
 
-      .selection-main h1:hover{
-          color:red;
+      .selection-main h1:hover {
+        color: red;
       }
     </style>
   </head>
@@ -67,13 +68,15 @@
         </div>
       </nav>
     </div>
-    <div class="container">
+
+     <div class="container">
       <div class="selection-main">
-        <h1 onclick="document.location.href='./takhtet.html'">إدارة التخطيط</h1>
-        <h1 onclick="document.location.href='./tadreb.html'">إدارة التدريب </h1>
-        <h1 onclick="document.location.href='./reports.html'">
-          التقارير          
+        <h1 onclick="document.location.href='./protocols.html'">البروتوكولات</h1>
+        <h1 onclick="document.location.href='./decisions.html'">الـقـرارات</h1>
+        <h1 onclick="document.location.href='./consumptions.html'">
+          المشتريات والمستهلكات
         </h1>
+        <h1 onclick="document.location.href='./employees.html'">الموظفون</h1>
       </div>
     </div>
   </body>
