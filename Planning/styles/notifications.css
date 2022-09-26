@@ -18,6 +18,10 @@
    
    .icon-button:hover {
      cursor: pointer;
+     background-color: white !important;
+     border-color: red !important;
+     border-width: 3px;
+     border-style: solid;
    }
    
    .icon-button:active {

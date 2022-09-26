@@ -15,6 +15,15 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="../styles/takhtet.css" />
+    <link rel="stylesheet" href="../styles/notifications.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+    rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
     
     <style>
       .container {
@@ -63,8 +72,32 @@
             id="NTA_left_header_icon"
             src="../images/nta-logo-white.png"
             alt="NTA left header icon"
-            style="margin: auto"
           />
+                    <!-- notification -->
+
+                    <div class="my-notification">
+                      <button
+                      title="اضغط للخروج"
+                      type="button"
+                      class="icon-button"
+                      onclick="document.location.href='../login.html'"
+                    >
+                      <span class="material-symbols-outlined"> exit_to_app </span>
+                    </button>
+          
+                    <div style="width: fit-content">E</div>
+                    <button
+                    title="اضغط للذهاب للقائمة الرئيسية"
+                    type="button"
+                    class="icon-button"
+                    onclick="document.location.href='./selection.html'"
+                  >
+                    <span class="material-symbols-outlined"> home </span>
+                  </button>
+                  
+                    <!-- notification -->
+          
+                  </div>
         </div>
       </nav>
     </div>
