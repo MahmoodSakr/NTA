@@ -1,52 +1,87 @@
 .material-symbols-outlined {
-     font-variation-settings: "FILL" 1, "wght" 700, "GRAD" 0, "opsz" 60;
-   }
-   * {
-     box-sizing: border-box;
-   }
-   .image-section {
-     border: 2px solid #212529;
-     padding:1px;
-     width: 90%;
-     margin: auto;
-     margin-bottom: 20px;
-   }
+  font-variation-settings: "FILL" 1, "wght" 700, "GRAD" 0, "opsz" 60;
+}
+* {
+  box-sizing: border-box;
+}
+.image-section {
+  border: 2px solid #212529;
+  padding: 1px;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 20px;
+}
 
-   .image-section img {
-     display: block;
-     width: 70%;
-     margin: 10px auto;
-     
-   }
-   .image-section h3 {
-     padding-right: 7px;
-     padding-left: 7px;
-     text-align: right;
-     border-right: 12px solid red;
-     font-size:26px ;
-   }
+.image-section img {
+  display: block;
+  width: 70%;
+  margin: 10px auto;
+}
+.image-section h3 {
+  padding-right: 7px;
+  padding-left: 7px;
+  text-align: right;
+  border-right: 12px solid red;
+  font-size: 26px;
+}
 
-   .image-section form {
-     display: flex;
-   }
+.layer1,
+.layer2,
+.layer3 {
+  display: flex;
+  font-weight: bolder;
+}
 
-   .image-section textarea {
-     display: block;
-     width: 85%;
-     padding: 10px;
-     color: red;
-     font-size: larger;
-   }
+.layer1{
+  margin:10px auto;
+}
 
-   .image-section button {
-     display: block;
-     width: 15%;
-     background-color: #282a35;
-     color: white;
-     border-radius: 4px;
-     font-size: larger;
-     font-weight: bold;
-   }
-   .image-section button:hover {
-     background-color: green;
-   }
+.layer1 div {
+  display: flex;
+  width: 10%;
+}
+
+.layer1 input {
+  width: 20%;
+}
+.layer1 label {
+  width: 20%;
+  padding-right: 7px;
+
+}
+
+.image-section .comment label {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 12%;
+  padding-right: 7px;
+}
+
+.image-section textarea {
+  display: block;
+  width: 75%;
+  padding: 10px;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.layer2 textarea{
+  color:navy
+}
+.layer3 textarea{
+  color:red
+}
+
+.image-section button {
+  display: block;
+  width: 13%;
+  background-color: #282a35;
+  color: white;
+  border-radius: 4px;
+  font-size: larger;
+  font-weight: bold;
+}
+.image-section button:hover {
+  background-color: green;
+}
